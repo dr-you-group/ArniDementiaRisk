@@ -1,11 +1,11 @@
 {
   "outputIdOffset": 10000,
   "precision": 0.01,
-  "riskWindowStart": 365,
+  "riskWindowStart": 0,
   "control": {
     "maxIterations": 1000,
     "autoSearch": true,
-    "seed": null,
+    "seed": 1,
     "initialBound": 2,
     "gridSteps": 10,
     "threads": 1,

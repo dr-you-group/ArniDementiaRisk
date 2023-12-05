@@ -9,4 +9,4 @@ readme.md
 studyReadme.md
 HydraConfig.json
 renv.lock
-
+.DS_Store

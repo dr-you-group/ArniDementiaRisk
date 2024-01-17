@@ -436,7 +436,7 @@
     }}],
     "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {
-      "PostDays": 720,
+      "PostDays": 365,
       "PriorDays": 365
     }
   }

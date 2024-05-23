@@ -1,0 +1,2714 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588648,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DX04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valsartan and sacubitril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46275719,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1656328",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sacubitril",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46275725,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1656340",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sacubitril 24 MG / valsartan 26 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "valsartan and sacubitril\n",
+      "id": 0
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4182210,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "52448006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Dementia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "dementia",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 316139,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84114007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315295,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "82523003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive rheumatic heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 314378,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5148006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertensive heart disease with congestive heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439696,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194779001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertensive heart and renal disease with (congestive) heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439694,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194781004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertensive heart and renal disease with both (congestive) heart failure and renal failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 319835,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42343007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439846,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85232009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Left heart failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 318445,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195130005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post cardiac operation functional disturbance",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JC] Heart failure (ARNI study)",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601784,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE inhibitors, plain",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961744,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4688239",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "alacepril 25 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961740,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4688235",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "alacepril 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40224166,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "999986",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 10 MG / hydrochlorothiazide 12.5 MG / olmesartan medoxomil 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42950393,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4676969",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 10 MG / Losartan 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19127432,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "730866",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 10 MG / olmesartan medoxomil 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40167843,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "876514",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 10 MG / telmisartan 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1332525,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "722126",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 10 MG / valsartan 160 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42930395,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4657160",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 2.5 MG / telmisartan 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42930392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4657157",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 2.5 MG / telmisartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42933136,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4659867",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 2.5 MG / valsartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40224172,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "999967",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / hydrochlorothiazide 12.5 MG / olmesartan medoxomil 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40224175,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "999996",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / hydrochlorothiazide 12.5 MG / olmesartan medoxomil 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42950354,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4676930",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 5 MG / Losartan 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42950421,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4676996",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 5 MG / Losartan 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19127433,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "730869",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / olmesartan medoxomil 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19127434,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "730872",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / olmesartan medoxomil 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40167849,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "876524",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / telmisartan 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40167852,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "876529",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / telmisartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1332527,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "722134",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "amlodipine 5 MG / valsartan 160 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21141332,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP372394",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Amlodipine 5 MG / valsartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534770,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C08GA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "amlodipine and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601845,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Angiotensin II receptor blockers (ARBs), other combinations",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42972637,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4699044",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "atorvastatin 10 MG / irbesartan 150 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40235487,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1091646",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "azilsartan medoxomil 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893512,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "azilsartan medoxomil and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40256408,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "azilsartan medoxomil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601791,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "benazepril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534773,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "candesartan and amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601838,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "candesartan and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 974702,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "578325",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "candesartan cilexetil 16 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1351583,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "577776",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "candesartan cilexetil 16 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1351587,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "639537",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "candesartan cilexetil 32 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1351559,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "153823",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "candesartan cilexetil 8 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601829,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "candesartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19074672,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "308963",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "captopril 12.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1340161,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "317173",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "captopril 25 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19074673,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "308964",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "captopril 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601803,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "captopril and diuretics; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601785,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "captopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19022241,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199707",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cilazapril 0.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19050220,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199937",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cilazapril 1 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19022242,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199708",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cilazapril 2.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601792,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cilazapril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601796,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "delapril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601804,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "enalapril and diuretics; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40256149,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BB06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "enalapril and nitrendipine; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165762,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "858817",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "enalapril maleate 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165789,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "858813",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "enalapril maleate 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601786,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "enalapril; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 974642,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "351292",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "eprosartan 600 MG / hydrochlorothiazide 12.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19076924,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "310140",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "eprosartan 600 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601835,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "eprosartan and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601825,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "eprosartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19101748,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "389180",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "felodipine 2.5 MG / ramipril 2.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1353820,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "389181",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "felodipine 5 MG / ramipril 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715848,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fimasartan and amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1501790,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fimasartan and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960027,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4686533",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "fimasartan potassium 120 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960031,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4686537",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "fimasartan potassium 30 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960018,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4686525",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "fimasartan potassium 60 MG / Hydrochlorothiazide 12.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42960035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4686541",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "fimasartan potassium 60 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601793,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fosinopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601903,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10BX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "HMG CoA reductase inhibitors, other combinations",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19078080,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "310792",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / irbesartan 150 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19078101,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "310793",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / irbesartan 300 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2059385,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4960460",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / losartan 45.8 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40184184,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "979464",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / losartan potassium 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40184187,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "979468",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19102491,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "403853",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / olmesartan medoxomil 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 974473,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "283316",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / telmisartan 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 974474,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "283317",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / telmisartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19023454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "200285",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19023453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "200284",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 12.5 MG / valsartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40184217,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "979471",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrochlorothiazide 25 MG / losartan potassium 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19101750,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "389183",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "imidapril 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601800,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA16",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "imidapril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19022948,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "200095",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "irbesartan 150 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19022949,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "200096",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "irbesartan 300 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601837,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "irbesartan and diuretics; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601827,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "irbesartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19080128,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "314076",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lisinopril 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601805,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lisinopril and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601787,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lisinopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40256423,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "losartan and amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601834,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "losartan and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601824,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "losartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40185276,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "979480",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "losartan potassium 100 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40185304,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "979492",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "losartan potassium 50 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601813,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "moexipril and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601797,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "moexipril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42969132,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4695569",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "olmesartan 20 MG / rosuvastatin 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42969135,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4695572",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "olmesartan 20 MG / rosuvastatin 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19102171,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "401971",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "olmesartan medoxomil 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19096740,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349401",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "olmesartan medoxomil 20 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19096752,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349405",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "olmesartan medoxomil 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40256427,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DX03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "olmesartan medoxomil, amlodipine and hydrochlorothiazide; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601843,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "olmesartan medoxomil and amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601840,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "olmesartan medoxomil and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601831,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "olmesartan medoxomil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601806,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "perindopril and diuretics; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40163271,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "854988",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "perindopril erbumine 4 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40163275,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "854925",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "perindopril erbumine 8 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601788,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "perindopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601790,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "quinapril; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19102170,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "401968",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ramipril 10 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1334461,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "251856",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ramipril 2.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1334492,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "251857",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ramipril 5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601807,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ramipril and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601819,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09BB05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ramipril and felodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601789,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ramipril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42969085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4695523",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "rosuvastatin 10 MG / valsartan 160 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42969082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4695520",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "rosuvastatin 10 MG / valsartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42969091,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4695529",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "rosuvastatin 20 MG / valsartan 160 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42969088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4695526",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "rosuvastatin 20 MG / valsartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715859,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10BX16",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "rosuvastatin and fimasartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588687,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C10BX10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "rosuvastatin and valsartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028935,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "205304",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "telmisartan 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028936,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "205305",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "telmisartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601844,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "telmisartan and amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601839,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "telmisartan and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601830,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "telmisartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601798,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA14",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "temocapril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19096678,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349201",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "valsartan 160 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19096677,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349200",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "valsartan 320 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1308874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349483",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "valsartan 40 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1308851,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349199",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "valsartan 80 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601842,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valsartan and amlodipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601836,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valsartan and diuretics; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1588655,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09DB08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valsartan and lercanidipine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601826,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09CA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "valsartan; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601799,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09AA15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "zofenopril; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[JC] HIRA RAASi",
+      "id": 8
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 8,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 0,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "AdditionalCriteria": {
+    "CriteriaList": [{
+      "RestrictVisit": false,
+      "StartWindow": {
+        "UseEventEnd": false,
+        "Start": {
+          "Days": 90,
+          "Coeff": -1
+        },
+        "End": {
+          "Days": 0,
+          "Coeff": 1
+        },
+        "UseIndexEnd": false
+      },
+      "IgnoreObservationPeriod": false,
+      "EndWindow": null,
+      "Criteria": {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 6,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": [
+          {
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          },
+          {
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          }
+        ],
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": [
+          {
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 44786627,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "OMOP4822127",
+            "VOCABULARY_ID": "Condition Type",
+            "CONCEPT_NAME": "Primary Condition",
+            "DOMAIN_ID": "Type Concept",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          },
+          {
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 44786629,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "OMOP4822129",
+            "VOCABULARY_ID": "Condition Type",
+            "CONCEPT_NAME": "Secondary Condition",
+            "DOMAIN_ID": "Type Concept",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          },
+          {
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 32902,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "OMOP4976972",
+            "VOCABULARY_ID": "Condition Status",
+            "CONCEPT_NAME": "Primary diagnosis",
+            "DOMAIN_ID": "Condition Status",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          },
+          {
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 32908,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "OMOP4976978",
+            "VOCABULARY_ID": "Condition Status",
+            "CONCEPT_NAME": "Secondary diagnosis",
+            "DOMAIN_ID": "Condition Status",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          }
+        ],
+        "ConditionSourceConcept": null,
+        "ConditionStatus": null,
+        "StopReason": null,
+        "Age": null
+      }},
+      "Occurrence": {
+        "Type": 2,
+        "CountColumn": null,
+        "IsDistinct": false,
+        "Count": 1
+      }
+    }],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [{
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 365,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ConditionOccurrence": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "ConditionTypeExclude": false,
+          "CodesetId": 4,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "ConditionType": null,
+          "ConditionSourceConcept": null,
+          "ConditionStatus": null,
+          "StopReason": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 0,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 0
+        }
+      }],
+      "Type": "ALL",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "Patients with no diagnosis of dementia in the past and within 1 year after the index date",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 8,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": "2017-01-01"
+      },
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 365,
+      "PriorDays": 365
+    }
+  }
+}

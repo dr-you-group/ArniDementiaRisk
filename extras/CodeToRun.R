@@ -1,44 +1,45 @@
-library(arniv1t2)
+library(arniv13)
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
-options(andromedaTempFolder = "d:/andromedaTemp")
+options(andromedaTempFolder = "s:/andromedaTemp")
 
 # Maximum number of cores to be used:
-maxCores <- parallel::detectCores() - 1
+maxCores <- parallel::detectCores()
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "d:/arniv1t2"
+outputFolder <- "s:/arniv13"
 
 # Details for connecting to the server:
-connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "redshift",
-                                                                connectionString = keyring::key_get("redShiftConnectionStringOhdaMdcr"),
-                                                                user = keyring::key_get("redShiftUserName"),
-                                                                password = keyring::key_get("redShiftPassword"))
+connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "pdw",
+                                                                server = Sys.getenv("PDW_SERVER"),
+                                                                user = NULL,
+                                                                password = NULL,
+                                                                port = Sys.getenv("PDW_PORT"))
 
 # The name of the database schema where the CDM data can be found:
-cdmDatabaseSchema <- "cdm_truven_mdcr_v1911"
+cdmDatabaseSchema <- "CDM_IBM_MDCD_V1153.dbo"
 
 # The name of the database schema and table where the study-specific cohorts will be instantiated:
-cohortDatabaseSchema <- "scratch_mschuemi"
-cohortTable <- "estimation_skeleton"
+cohortDatabaseSchema <- "scratch.dbo"
+cohortTable <- "mschuemi_skeleton"
 
 # Some meta-information that will be used by the export function:
-databaseId <- "IBM_MDCR"
-databaseName <- "IBM MarketScan® Medicare Supplemental and Coordination of Benefits Database"
-databaseDescription <- "IBM MarketScan® Medicare Supplemental and Coordination of Benefits Database (MDCR) represents health services of retirees in the United States with primary or Medicare supplemental coverage through privately insured fee-for-service, point-of-service, or capitated health plans.  These data include adjudicated health insurance claims (e.g. inpatient, outpatient, and outpatient pharmacy). Additionally, it captures laboratory tests for a subset of the covered lives."
+databaseId <- "Synpuf"
+databaseName <- "Medicare Claims Synthetic Public Use Files (SynPUFs)"
+databaseDescription <- "Medicare Claims Synthetic Public Use Files (SynPUFs) were created to allow interested parties to gain familiarity using Medicare claims data while protecting beneficiary privacy. These files are intended to promote development of software and applications that utilize files in this format, train researchers on the use and complexities of Centers for Medicare and Medicaid Services (CMS) claims, and support safe data mining innovations. The SynPUFs were created by combining randomized information from multiple unique beneficiaries and changing variable values. This randomization and combining of beneficiary information ensures privacy of health information."
 
-# For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
-options(sqlRenderTempEmulationSchema = NULL)
+# For Oracle: define a schema that can be used to emulate temp tables:
+oracleTempSchema <- NULL
 
 execute(connectionDetails = connectionDetails,
         cdmDatabaseSchema = cdmDatabaseSchema,
         cohortDatabaseSchema = cohortDatabaseSchema,
         cohortTable = cohortTable,
+        oracleTempSchema = oracleTempSchema,
         outputFolder = outputFolder,
         databaseId = databaseId,
         databaseName = databaseName,
         databaseDescription = databaseDescription,
-        verifyDependencies = TRUE,
         createCohorts = TRUE,
         synthesizePositiveControls = TRUE,
         runAnalyses = TRUE,

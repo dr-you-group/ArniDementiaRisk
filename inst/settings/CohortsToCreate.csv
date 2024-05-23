@@ -1,8 +1,8 @@
 atlasId,atlasName,cohortId,name
-1223,[JC] HF with ARNI (after 365d) (2),1223,JC_HF_with_ARNI_after_365d_2
-1224,[JC] HF with RAASi (after 365d) (2),1224,JC_HF_with_RAASi_after_365d_2
-797,[JC] Dementia cohort,797,JC_Dementia_cohort
-886,[JC] HF with ARNI (after 720d),886,JC_HF_with_ARNI_after_720d
-1225,[JC] HF with RAASi (after 720d) (2),1225,JC_HF_with_RAASi_after_720d_2
-1226,[JC] HF without ARNI (after 365d) (2),1226,JC_HF_without_ARNI_after_365d_2
-1227,[JC] HF without ARNI (after 720d) (2),1227,JC_HF_without_ARNI_after_720d_2
+1223,[JC] HF with ARNI (after 365d) (2),1788240,JC_HF_with_ARNI_after_365d_2
+1224,[JC] HF with RAASi (after 365d) (2),1788245,JC_HF_with_RAASi_after_365d_2
+797,[JC] Dementia cohort,1788244,JC_Dementia_cohort
+886,[JC] HF with ARNI (after 720d),1788241,JC_HF_with_ARNI_after_720d
+1225,[JC] HF with RAASi (after 720d) (2),1788246,JC_HF_with_RAASi_after_720d_2
+1226,[JC] HF without ARNI (after 365d) (2),1788242,JC_HF_without_ARNI_after_365d_2
+1227,[JC] HF without ARNI (after 720d) (2),1788243,JC_HF_without_ARNI_after_720d_2

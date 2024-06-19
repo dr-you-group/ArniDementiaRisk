@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "arniv13"
+		"find": "arniv4"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "arniv13"
+		"find": "arniv4"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

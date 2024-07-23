@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "arniv4"
+		"find": "ARNIrevisedNC"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "arniv4"
+		"find": "ARNIrevisedNC"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

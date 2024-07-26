@@ -1,8 +1,5 @@
 atlasId,atlasName,cohortId,name
-4404,[JC] HF with ARNI (after 365d),4404,JC_HF_with_ARNI_after_365d
-4405,[JC] HF with RAASi (after 365d),4405,JC_HF_with_RAASi_after_365d
+4492,[JC] HF with ARNI_revised by JHC,4492,JC_HF_with_ARNI_revised_by_JHC
+4493,[JC] HF with RAASi_revised by JHC,4493,JC_HF_with_RAASi_revised_by_JHC
 4406,[JC] Dementia cohort,4406,JC_Dementia_cohort
-4407,[JC] HF with ARNI (after 720d),4407,JC_HF_with_ARNI_after_720d
-4408,[JC] HF with RAASi (after 720d),4408,JC_HF_with_RAASi_after_720d
-4409,[JC] HF without ARNI (after 365d),4409,JC_HF_without_ARNI_after_365d
-4410,[JC] HF without ARNI (after 720d),4410,JC_HF_without_ARNI_after_720d
+4491,[JC] HF without ARNI_revised by JHC,4491,JC_HF_without_ARNI_revised_by_JHC

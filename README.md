@@ -1,4 +1,4 @@
-ARNIrevisedNC
+ARNIrevised240726
 ==============================
 
 
@@ -26,7 +26,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
-	library(ARNIrevisedNC)
+	library(ARNIrevised240726)
 	
   # Optional: specify where the temporary files (used by the Andromeda package) will be created:
   options(andromedaTempFolder = "c:/andromedaTemp")
@@ -38,7 +38,7 @@ How to run
 	minCellCount <- 5
 	
 	# The folder where the study intermediate and result files will be written:
-	outputFolder <- "c:/ARNIrevisedNC"
+	outputFolder <- "c:/ARNIrevised240726"
 	
 	# Details for connecting to the server:
 	# See ?DatabaseConnector::createConnectionDetails for help
@@ -97,11 +97,11 @@ How to run
 
 License
 =======
-The ARNIrevisedNC package is licensed under Apache License 2.0
+The ARNIrevised240726 package is licensed under Apache License 2.0
 
 Development
 ===========
-ARNIrevisedNC was developed in ATLAS and R Studio.
+ARNIrevised240726 was developed in ATLAS and R Studio.
 
 ### Development status
 

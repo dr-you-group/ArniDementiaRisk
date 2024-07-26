@@ -1,6 +1,6 @@
 # Copyright 2020 Observational Health Data Sciences and Informatics
 #
-# This file is part of ARNIrevisedNC
+# This file is part of ARNIrevised240726
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 
 # Format and check code ---------------------------------------------------
 OhdsiRTools::formatRFolder()
-OhdsiRTools::checkUsagePackage("ARNIrevisedNC")
+OhdsiRTools::checkUsagePackage("ARNIrevised240726")
 OhdsiRTools::updateCopyrightYearFolder()
 devtools::spell_check()
 
 # Create manual -----------------------------------------------------------
-unlink("extras/ARNIrevisedNC.pdf")
-shell("R CMD Rd2pdf ./ --output=extras/ARNIrevisedNC.pdf")
+unlink("extras/ARNIrevised240726.pdf")
+shell("R CMD Rd2pdf ./ --output=extras/ARNIrevised240726.pdf")
 
 # Create vignettes ---------------------------------------------------------
 rmarkdown::render("vignettes/UsingSkeletonPackage.Rmd",
@@ -43,7 +43,7 @@ ROhdsiWebApi::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv
                                                  insertTableSql = TRUE,
                                                  insertCohortCreationR = TRUE,
                                                  generateStats = FALSE,
-                                                 packageName = "ARNIrevisedNC")
+                                                 packageName = "ARNIrevised240726")
 
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
@@ -51,4 +51,4 @@ createAnalysesDetails("inst/settings/")
 createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
-OhdsiRTools::createRenvLockFile("ARNIrevisedNC")
+OhdsiRTools::createRenvLockFile("ARNIrevised240726")
